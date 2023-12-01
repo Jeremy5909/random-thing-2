@@ -29,6 +29,6 @@
 	inputKeys={['value']}
 >
 	{#if typeof get($inputs.value) === 'string' || typeof get($inputs.value) === 'number'}
-		<b>{get($inputs.value)}</b>
+		<b class="text-8xl">{get($inputs.value)}</b>
 	{/if}
 </CustomNode>
